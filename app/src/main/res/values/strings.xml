@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Wallpage</string>
+    <string name="title_activity_wall_page_main">MainActivity</string>
+    <string name="title_wallpage">Wallpage</string>
+    <string name="title_category">Category</string>
+    <string name="title_settings">Settings</string>
 </resources>
