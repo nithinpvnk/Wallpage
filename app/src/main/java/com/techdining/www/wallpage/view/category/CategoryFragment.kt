@@ -1,4 +1,4 @@
-package com.techdining.www.wallpage.ui.category
+package com.techdining.www.wallpage.view.category
 
 import android.os.Bundle
 import android.view.LayoutInflater

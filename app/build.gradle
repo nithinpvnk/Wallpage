@@ -14,6 +14,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        buildConfigField("String", "UNSPLASH_ACCESS_KEY", "\"" + getUnsplashAccess() + "\"")
     }
 
     buildTypes {
@@ -51,6 +52,7 @@ dependencies {
     implementation deps.lifecycle.java8
     implementation deps.retrofit.runtime
     implementation deps.retrofit.gson
+    implementation deps.okhttp_logging_interceptor
 
     implementation deps.constraint_layout
     implementation deps.kotlin.stdlib
@@ -69,4 +71,8 @@ dependencies {
     androidTestImplementation deps.material
 
     androidTestImplementation deps.arch_core.testing
+}
+
+def getUnsplashAccess() {
+    return project.findProperty("unsplash_access_key")
 }
