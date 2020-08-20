@@ -44,6 +44,7 @@ dependencies {
     implementation deps.viewPager2
     implementation deps.fragment.testing
     implementation deps.navigation.fragment_ktx
+    implementation deps.navigation.ui_ktx
     implementation deps.room.runtime
     implementation deps.lifecycle.livedata_ktx
     implementation deps.lifecycle.runtime
