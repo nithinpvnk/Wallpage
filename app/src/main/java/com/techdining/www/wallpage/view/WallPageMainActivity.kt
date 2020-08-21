@@ -1,4 +1,4 @@
-package com.techdining.www.wallpage.ui
+package com.techdining.www.wallpage.view
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

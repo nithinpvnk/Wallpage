@@ -1,4 +1,4 @@
-package com.techdining.www.wallpage.ui.settings
+package com.techdining.www.wallpage.view.settings
 
 import android.os.Bundle
 import android.view.LayoutInflater
