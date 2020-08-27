@@ -53,6 +53,7 @@ dependencies {
     implementation deps.retrofit.runtime
     implementation deps.retrofit.gson
     implementation deps.okhttp_logging_interceptor
+    implementation deps.paging_runtime
 
     implementation deps.constraint_layout
     implementation deps.kotlin.stdlib
